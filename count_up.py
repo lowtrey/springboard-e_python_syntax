@@ -14,5 +14,10 @@ def count_up(start, stop):
 
     # YOUR CODE HERE
 
+    number_list = list(range(start, stop+1))
 
-count_up(5, 7)        
+    for number in number_list:
+        print(number)
+
+
+count_up(5, 7)
